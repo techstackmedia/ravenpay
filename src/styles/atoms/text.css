@@ -1,0 +1,25 @@
+.text--h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+.text--p {
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.text--title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.text--subtitle {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.text--body {
+    font-size: 14px;
+    color: #999999;
+}

@@ -1,0 +1,34 @@
+.tradingForm {
+    width: 300px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.total,
+.accountInfo>div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.buyButton {
+    background: linear-gradient(90deg, #36D1DC 0%, #5B86E5 100%);
+    color: white;
+}
+
+.depositButton {
+    background-color: blue;
+    color: white;
+    width: 40%
+}
+
+.postOnly {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

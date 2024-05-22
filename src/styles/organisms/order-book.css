@@ -1,0 +1,32 @@
+.order-book {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .order-book__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .order-book__list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .order-book__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .order-book__item--sell {
+    color: #e74c3c;
+  }
+  
+  .order-book__item--buy {
+    color: #2ecc71;
+  }
+  

@@ -1,0 +1,11 @@
+.ticker {
+    display: flex;
+    align-items: center;
+}
+
+.currency {
+    height: 28px;
+    display: flex;
+    gap: 10;
+    align-items: center;
+}

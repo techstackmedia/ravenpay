@@ -1,0 +1,11 @@
+.icon--btc {
+    background-image: url('/path/to/btc-icon.png');
+    width: 20px;
+    height: 20px;
+}
+
+.icon--usdt {
+    background-image: url('/path/to/usdt-icon.png');
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,28 @@
+.statCard {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    color: #999;
+    font-size: 0.8rem;
+}
+
+.value {
+    color: #0f0;
+    font-size: 1.2rem;
+}

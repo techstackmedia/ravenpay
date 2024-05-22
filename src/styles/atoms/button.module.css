@@ -1,0 +1,20 @@
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy {
+    background: linear-gradient(90deg, #36D1DC 0%, #5B86E5 100%);
+    color: white;
+}
+
+.deposit {
+    background-color: blue;
+    color: white;
+}
