@@ -7,7 +7,7 @@ import { candleStick } from '../../data'
 // failed: FF6838
 
 const CandleStickChart = () => {
-    const [options, setOptions] = useState<ApexOptions>({
+    const [options] = useState<ApexOptions>({
         chart: {
             type: 'candlestick',
             height: 350
@@ -27,7 +27,7 @@ const CandleStickChart = () => {
         }
     });
 
-    const [series, setSeries] = useState(candleStick);
+    const [series] = useState(candleStick);
     return (
         <div className="chart__body">
             <ReactApexChart options={options} series={series} type="candlestick" height={350} />

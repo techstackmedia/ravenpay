@@ -5,7 +5,7 @@ import { ApexOptions } from 'apexcharts';
 import { bar } from '../../data'
 
 const BarChart = () => {
-    const [options, setOptions] = useState<ApexOptions>({
+    const [options] = useState<ApexOptions>({
         chart: {
             type: 'bar',
             height: 350
@@ -27,7 +27,7 @@ const BarChart = () => {
         }
     });
 
-    const [series, setSeries] = useState(bar);
+    const [series] = useState(bar);
     return (
         <div className="chart__body">
             <ReactApexChart options={options} series={series} type="bar" height={350} />
