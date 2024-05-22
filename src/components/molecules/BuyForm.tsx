@@ -12,8 +12,8 @@ const BuyForm = () => {
                 <Button text="Stop-Limit" type="tab" />
             </div>
             <div className="buy-form__fields">
-                <Input label="Limit price" placeholder="0.00 USD" />
-                <Input label="Amount" placeholder="0.00 USD" />
+                <Input label="Limit price" placeholder="0.00 USD" type={''} disabled={false} />
+                <Input label="Amount" placeholder="0.00 USD" type={''} disabled={false} />
                 <div className="buy-form__field">
                     <Text type="label">Type</Text>
                     <select className="buy-form__select">
@@ -22,8 +22,8 @@ const BuyForm = () => {
                         <option>Fill or kill</option>
                     </select>
                 </div>
-                <Input type="checkbox" label="Post Only" />
-                <Input label="Total" placeholder="0.00" disabled />
+                <Input type="checkbox" label="Post Only" placeholder={''} disabled={false} />
+                <Input label="Total" placeholder="0.00" disabled type={''} />
             </div>
             <Button text="Buy BTC" type="primary" className="buy-form__buy-button" />
             <div className="buy-form__info">
